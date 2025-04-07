@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 56px;
+}
+/*Estilo imagen*/
+
+.img01
+/* Hero section */
+.hero-section {
+    
+    background-color: #7fce61;
+    padding: 100px 0;
+    margin-bottom: 30px;
+}
+
+/* Secciones */
+.about-section, .skills-section {
+    padding: 60px 0;
+}
+
+/* Cards de proyectos */
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Pie de página */
+.footer {
+    margin-top: 60px;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #99d555 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 80px 0;
+    }
+    
+    .about-section, .skills-section {
+        padding: 40px 0;
+    }
+}
